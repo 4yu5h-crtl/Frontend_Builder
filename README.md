@@ -1,5 +1,7 @@
 # 🚀 Frontend Developer
 
+![Frontend Developer Screenshot](media/img.png)
+
 Frontend Developer is a powerful web application that allows you to create, edit, and deploy HTML websites with the help of AI. It features a Monaco-based code editor, AI integration for generating HTML content, and deployment options to various platforms.
 
 ## ✨ Features
