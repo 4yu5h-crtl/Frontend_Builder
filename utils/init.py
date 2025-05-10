@@ -12,7 +12,7 @@ def init_session_state():
     # API Key
     if "api_key" not in st.session_state:
         # Set the API key directly
-        st.session_state.api_key = "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"
+        st.session_state.api_key = "your-api-key"
     
     # HTML Content
     if "html_content" not in st.session_state:
