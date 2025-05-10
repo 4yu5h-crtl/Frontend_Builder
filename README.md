@@ -5,7 +5,7 @@ Frontend Developer is a powerful web application that allows you to create, edit
 ## ✨ Features
 
 - **🖥️ Live HTML Editing**: Edit HTML code in real-time with syntax highlighting and auto-completion.
-- **🤖 AI Integration**: Generate HTML content using AI with OpenRouter API.
+- **🤖 AI Integration**: Generate HTML content using AI with OpenRouter API, powered by Grok 3 Mini Beta for advanced website development.
 - **🚀 Deployment Options**: Deploy your projects to GitHub Pages, Netlify, Vercel, or save locally.
 - **📁 Project Management**: Save, load, and manage your projects.
 - **🔄 Remix Functionality**: Load and remix existing projects.
@@ -53,6 +53,16 @@ python run.py
 ```
 
 This will start the application using Streamlit on port 8501.
+
+### AI-Powered Development
+
+Frontend Developer leverages Grok 3 Mini Beta through the OpenRouter API to provide intelligent assistance in website development. This powerful AI model helps with:
+
+- Generating responsive HTML layouts
+- Creating modern CSS styles
+- Implementing interactive JavaScript functionality
+- Optimizing code for performance
+- Suggesting best practices for web development
 
 #### Command-line Options
 
@@ -112,7 +122,7 @@ frontend-developer/
 
 ### Adding New Features
 
-To add new features to Frontend Developer:
+To add new features to the Frontend Developer:
 
 1. Create a new component in the `components/` directory
 2. Add utility functions in the `utils/` directory if needed
