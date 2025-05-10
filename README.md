@@ -20,8 +20,8 @@ Frontend Developer is a powerful web application that allows you to create, edit
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/frontend-developer.git
-   cd frontend-developer
+   git clone https://github.com/yourusername/Frontend_Builder.git
+   cd Frontend_Builder
    ```
 
 2. Run the installation script:
