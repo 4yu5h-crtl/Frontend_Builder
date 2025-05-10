@@ -36,6 +36,41 @@ Frontend Developer is a powerful web application that allows you to create, edit
    - Create a `.env` file for your API key
    - Create an example project
 
+### Manual Setup (Without venv folder)
+
+If you don't have the venv folder (for example, when downloading from GitHub), follow these steps:
+
+1. Create a new virtual environment:
+   ```
+   python -m venv venv
+   ```
+
+2. Activate the virtual environment:
+   - On Windows (PowerShell):
+   ```
+   .\venv\Scripts\Activate.ps1
+   ```
+   - On Windows (Command Prompt):
+   ```
+   .\venv\Scripts\activate.bat
+   ```
+   - On macOS/Linux:
+   ```
+   source venv/bin/activate
+   ```
+
+3. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
+
+4. Run the application:
+   ```
+   streamlit run app.py
+   ```
+
+Note: Make sure you have Python 3.7 or higher installed on your system.
+
 3. Add your OpenRouter API key to the `.env` file:
    ```
    OPENROUTER_API_KEY=your_api_key_here
@@ -122,7 +157,7 @@ frontend-developer/
 
 ### Adding New Features
 
-To add new features to the Frontend Developer:
+To add new features to Frontend Developer:
 
 1. Create a new component in the `components/` directory
 2. Add utility functions in the `utils/` directory if needed
